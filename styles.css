@@ -15,8 +15,8 @@ body{
 }
 
 header{
-    width: 100%;
-    height: 80px;
+    width: 100vw;
+    height: 5vw;
     background: rgba(0,0,0,0);
     display: flex;
     align-items: center;
@@ -26,11 +26,11 @@ header{
 }
 
 header .logo{
-    width: 50%;
+    width: 45vw;
 }
 
 header .logo img{
-    width: 210px;
+    width: 15vw;
 
 }
 
@@ -40,7 +40,7 @@ header .menu ul{
 }
 
 header .menu ul li{
-    padding: 0 25px;
+    padding: 0 1vw;
     list-style: none;
     
 }
@@ -70,27 +70,27 @@ header .btn-mobile{
 #home .container{
     width: 100%;
     height: 100vh;
-    background-image: url(CREATIVE_HEADER.png);
+    background-image: url(img/CREATIVE_HEADER.png);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
 }
 
 #home .container .icons{
-    width: 1%;
-    height: 80vh;
+    width: 1vw;
+    height: 49vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 30px;
+    padding: 0 1.5vw;
     position: fixed;
     z-index: 999;
     transition: 2s ease;
 }
 
 #home .container .icons ion-icon{
-    padding: 30px 0;
-    font-size: 2rem;
+    padding: 2vw 0;
+    font-size: 2vw;
     color: #1E202F;
     transition: 0.5s ease;
 }
@@ -100,8 +100,8 @@ header .btn-mobile{
 }
 
 #home .container .title{
-    margin-right: 160px;
-    height: 95vh;
+    margin-right: 12vw;
+    height: 46vw;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -114,47 +114,47 @@ header .btn-mobile{
 #home .container .title h1{
     color: black;
     text-transform: uppercase;
-    font-size: 5rem;
-    letter-spacing: 50px; 
-    margin-right: -80px; 
-    letter-spacing: 11px;
-    line-height: 80px;  
+    font-size: 5vw;
+    letter-spacing: 50vw; 
+    margin-right: -5vw; 
+    letter-spacing: 0.7vw;
+    line-height: 5vw;  
 }
 
 #home .container .title h2{
     color: black;
     text-transform: uppercase;
-    letter-spacing: 41px;
-    font-size: 2.0rem;
-    margin-right: -80px;
-    line-height: 50px;
+    letter-spacing: 2.6vw;
+    font-size: 2vw;
+    margin-right: -5vw;
+    line-height: 3vw;
 }
 
 #home .container .title h3{
     color: black;
     text-transform: uppercase;
-    font-size: 1.0rem;
-    letter-spacing: 14px;
-    margin-right: -30px;
+    font-size: 1vw;
+    letter-spacing: 0.9vw;
+    margin-right: -2.3vw;
 }
 
 #home .container .imageman img{
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 90%;
-    height: 90%;
+    width: 85vw;
+    height: 43vw;
 }
 #home .container .imageman .entrada-esquerda {
     animation: entrada-esquerda 1.7s ease-out forwards;
-    transform: translateX(-100%);
-    right: 60vh;
+    transform: translateX(-100vw);
+    right: 30vw;
     
 }
   
   @keyframes entrada-esquerda {
     from {
-      transform: translateX(-100%);
+      transform: translateX(-100vw);
       opacity: 0;
     }
     to {
@@ -170,7 +170,7 @@ header .btn-mobile{
 #sobre .container{
     width: 100%;
     height: 100vh;
-    background: url(CREATIVE_2.png);
+    background: url(img/CREATIVE_2.png);
     background-size: cover;
     justify-content: space-between;
     background-attachment: fixed;
@@ -179,11 +179,11 @@ header .btn-mobile{
 
 #sobre .container .title{
     position: absolute;
-    width: 60%;
-    height: 80%;
+    width: 60vw;
+    height: 38vw;
     left: 0%;
     right: 0;
-    margin: 70px auto;
+    margin: 6vw auto;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -197,9 +197,9 @@ header .btn-mobile{
     position: absolute;
     z-index: 9;
     color: #fff;
-    font-size: 2.5rem;
-    margin-top: 30px;
-    width: 100%;
+    font-size: 2.5vw;
+    margin-top: 2vw;
+    width: 30vw;
     text-shadow: 2px 2px 2px #000000;
 
 
@@ -207,12 +207,12 @@ header .btn-mobile{
 #sobre .container .title p{
     position: absolute;
     z-index: 9;
-    width: 90%;
+    width: 54vw;
     color: #fff;
-    margin-top: 100px;
+    margin-top: 6vw;
     text-align: center;
-    font-size: 20px;
-    line-height: 29px;
+    font-size: 1.3vw;
+    line-height: 1.9vw;
     text-shadow: 2px 2px 2px #000000;
 
 }
@@ -221,7 +221,7 @@ header .btn-mobile{
 #port .container{
     width: 100%;
     height: 100vh;
-    background: url(CREATIVE_3.png);
+    background: url(img/CREATIVE_3.png);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -237,11 +237,11 @@ header .btn-mobile{
 /*====== CARD 1 ======*/
 #port .container .card1{
     position: absolute;
-    width: 40%;
-    height: 80%;
+    width: 40vw;
+    height: 41vw;
     left: 0%;
     right: 0;
-    margin: 80px auto;
+    margin: 4.5vw auto;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -250,8 +250,8 @@ header .btn-mobile{
 }
 
 #port .container .card1 img{
-    width: 100%;
-    height: 100%;
+    width: 40vw;
+    height: 41vw;
     object-fit: cover;
 }
 
@@ -260,8 +260,8 @@ header .btn-mobile{
     position: absolute;
     z-index: 9;
     color: #fff;
-    font-size: 2.5rem;
-    margin-top: 50px;
+    font-size: 2.5vw;
+    margin-top: 2vw;
     text-align: center;
     text-shadow: 2px 2px 2px #000000;
 
@@ -270,12 +270,12 @@ header .btn-mobile{
 #port .container .card1 p{
     position: absolute;
     z-index: 9;
-    width: 500px;
+    width: 35vw;
     color: #fff;
-    margin-top: 105px;
+    margin-top: 5.5vw;
     text-align: center;
-    font-size: 1rem;
-    line-height: 22px;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
     text-shadow: 2px 2px 2px #000000;
 
 }
@@ -283,13 +283,13 @@ header .btn-mobile{
 #port .container .card1 .btn-link{
     position: absolute;
     text-decoration: none;
-    margin-top: 500px;
-    width: 130px;
-    padding: 10px;
+    margin-top: 35vw;
+    width: 10vw;
+    padding: 0.8vw;
     text-align: center;
     background-color: rgba(0,0,0,0.8);
     color: #fff;
-    border-radius: 2px;
+    border-radius: 0.2vw;
     
 }
 #port .container .card1 .btn-link:hover{
@@ -300,11 +300,11 @@ header .btn-mobile{
 /*====== CARD 2 ======*/
 #port .container .card2{
     position: absolute;
-    width: 40%;
-    height: 80%;
+    width: 40vw;
+    height: 41vw;
     left: 0%;
     right: 0;
-    margin: 80px auto;
+    margin: 4.5vw auto;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -313,8 +313,8 @@ header .btn-mobile{
 }
 
 #port .container .card2 img{
-    width: 100%;
-    height: 100%;
+    width: 40vw;
+    height: 41vw;
     object-fit: cover;
 }
 
@@ -323,8 +323,8 @@ header .btn-mobile{
     position: absolute;
     z-index: 9;
     color: #fff;
-    font-size: 2.5rem;
-    margin-top: 50px;
+    font-size: 2.5vw;
+    margin-top: 2vw;
     text-align: center;
     text-shadow: 2px 2px 2px #000000;
 
@@ -333,12 +333,12 @@ header .btn-mobile{
 #port .container .card2 p{
     position: absolute;
     z-index: 9;
-    width: 500px;
+    width: 25vw;
     color: #fff;
-    margin-top: 110px;
+    margin-top: 6vw;
     text-align: center;
-    font-size: 1rem;
-    line-height: 25px;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
     text-shadow: 2px 2px 2px #000000;
 
 }
@@ -346,13 +346,13 @@ header .btn-mobile{
 #port .container .card2 .btn-link{
     position: absolute;
     text-decoration: none;
-    margin-top: 420px;
-    width: 130px;
-    padding: 10px;
+    margin-top: 34vw;
+    width: 10vw;
+    padding: 0.8vw;
     text-align: center;
     background-color: rgba(0,0,0,0.8);
     color: #fff;
-    border-radius: 2px;
+    border-radius: 0.2vw;
     
 }
 #port .container .card2 .btn-link:hover{
@@ -363,11 +363,11 @@ header .btn-mobile{
 /*====== CARD 3 ======*/
 #port .container .card3{
     position: absolute;
-    width: 40%;
-    height: 80%;
+    width: 40vw;
+    height: 41vw;
     left: 0%;
     right: 0;
-    margin: 80px auto;
+    margin: 4.5vw auto;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -376,8 +376,8 @@ header .btn-mobile{
 }
 
 #port .container .card3 img{
-    width: 100%;
-    height: 100%;
+    width: 40vw;
+    height: 41vw;
     object-fit: cover;
 }
 
@@ -386,8 +386,8 @@ header .btn-mobile{
     position: absolute;
     z-index: 9;
     color: #fff;
-    font-size: 2.5rem;
-    margin-top: 60px;
+    font-size: 2.5vw;
+    margin-top: 2vw;
     text-align: center;
     text-shadow: 2px 2px 2px #000000;
 
@@ -396,12 +396,12 @@ header .btn-mobile{
 #port .container .card3 p{
     position: absolute;
     z-index: 9;
-    width: 450px;
+    width: 25vw;
     color: #fff;
-    margin-top: 120px;
+    margin-top: 6vw;
     text-align: center;
-    font-size: 1rem;
-    line-height: 30px;
+    font-size: 1.2vw;
+    line-height: 2vw;
     text-shadow: 2px 2px 2px #000000;
 
 }
@@ -409,26 +409,25 @@ header .btn-mobile{
 #port .container .card3 .btn-link{
     position: absolute;
     text-decoration: none;
-    margin-top: 400px;
-    width: 130px;
-    padding: 10px;
+    margin-top: 30vw;
+    width: 10vw;
+    padding: 0.8vw;
     text-align: center;
     background-color: rgba(0,0,0,0.8);
     color: #fff;
-    border-radius: 2px;
+    border-radius: 0.2vw;
     
 }
 #port .container .card3 .btn-link:hover{
     transition: 0.3s ease;
     background-color: rgba(0,0,0,0.2);
     color: #FF9B01;
-
 }
 
 #port .container .cards{
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vw;
 }
 
 #item-1:checked ~ .cards #song-3,
@@ -459,8 +458,8 @@ header .btn-mobile{
 
 #contact .container{
     width: 100%;
-    height: 115vh;
-    background-image: url(CREATIVE_HEADER.png);
+    height: 100vh;
+    background-image: url(img/CREATIVE_HEADER.png);
     display: flex;
     background-size: cover;
     background-attachment: fixed;
@@ -468,10 +467,10 @@ header .btn-mobile{
 }
 
 #contact .container .content-contact{
-    width: 80%;
-    height: 60vh;
+    width: 80vw;
+    height: 30vw;
     margin: 0 auto;
-    padding: 200px 0;
+    padding: 12vw 0;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -479,8 +478,8 @@ header .btn-mobile{
 }
 
 #contact .content-contact .contact-left{
-    margin-top: -10px;
-    width: 50%;
+    margin-top: -1vw;
+    width: 25vw;
     display: flex;
     flex-direction: column;
     color: black;
@@ -488,33 +487,33 @@ header .btn-mobile{
 }
 
 #contact .content-contact .contact-left h1{
-    font-size: 2rem;
+    font-size: 2vw;
     text-transform: uppercase;
 }
 
 #contact .content-contact .linha{
-    width: 350px;
-    height: 3px;
+    width: 25vw;
+    height: 0.15vw;
     background: #1E202F;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 1.5vw;
+    margin-bottom: 1vw;
 }
 
 #contact .content-contact .contact-left ion-icon{
-    font-size: 2rem;
-    padding: 20px 0;
+    font-size: 2vw;
+    padding: 1vw 0;
 
 }
 
 #contact .content-contact .contact-left span{
-    font-size: 1.2rem;
-    padding: 5px 0;
+    font-size: 1.3vw;
+    padding: 0.5vw 0;
 }
 
 #contact .content-contact .contact-right{
-    margin-top: -80px;
-    width: 25%;
-    padding-right: 2%;
+    margin-top: -3vw;
+    width: 25vw;
+    padding-right: 1vw;
     display: flex;
     flex-direction: column;
     color: black;
@@ -522,72 +521,68 @@ header .btn-mobile{
 }
 
 #contact .content-contact .contact-right h1{
-    font-size: 2rem;
+    font-size: 2vw;
     text-transform: uppercase;
 }
 
 #contact .content-contact .contact-right input[type=email],
 #contact .content-contact .contact-right input[type=text]{
-    width: 95%;
-    height: 0.5vh;
-    border-radius: 2px;
+    width: 22vw;
+    height: 0.3vw;
+    border-radius: 0.2vw;
     border: none;
-    padding: 15px 20px;
-    margin-bottom: 20px;
-    font-size: 1rem;
-    font-weight: 600;
+    padding: 0.9vw 1vw;
+    margin-bottom: 1vw;
+    font-size: 1vw;
     outline: none;    
 }
 
 #contact .content-contact .contact-right form{
-    font-size: 1.2rem;
-    line-height: 2.3rem;
+    font-size: 1.2vw;
+    line-height: 2.3vw;
 }
 
 #contact .content-contact .contact-right textarea{
-    width: 95%;
-    height: 120px;
-    border-radius: 2px;
+    width: 21.5vw;
+    height: 8vw;
+    border-radius: 0.2vw;
     border: none;
-    margin-bottom: 20px;
-    font-size: 1.2rem;
-    font-weight: 600;
+    margin-bottom: 2vw;
+    font-size: 1.2vw;
     outline: none;
-    padding: 15px 20px;
+    padding: 1vw 1.3vw;
     resize: vertical;
 }
 
+
+#contact .content-contact .contact-right button{
+    text-decoration: none;
+    margin-top: -1vw;
+    width: 24vw;
+    padding: 0.9vw;
+    text-align: center;
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    border-radius: 0.2vw;
+    border: none;
+    font-size: 1.1vw;
+    cursor: pointer;
+
+}
+
 #contact .content-contact .contact-right button:hover{
+    transition: 0.3s ease;
+    background-color: rgba(0,0,0,0.2);
     color: #FF9B01;
 }
 
-#contact .content-contact .contact-right button{
-    font-size: 17px;
-    width: 106%;
-    height: 50px;
-    border-radius: 3px;
-    align-items: center;
-    color: #fff;
-    background-color: #1E202F;
-    font-weight: bold;
-
-
-
-}
-
-#contact .content-contact .contact-right button:hover{
-    box-shadow: 0 0 8px 0.02rem #FF9B01;
-    transition: 0.3s ease;
-    border-color: rgb(0, 0, 0);
-
-}
 input:hover,
 input:focus,
 textarea:hover,
 textarea:focus {
     outline: none;
     border: none;
-    box-shadow: 0 0 4px 0.3rem #FF9B01;
+    box-shadow: 0 0 0.4vw 0.3vw #FF9B01;
     transition: 0.2s ease;
 }
 
@@ -596,21 +591,22 @@ textarea:focus {
 
 footer{
     width: 100%;
-    height: 30vh;
+    height: 22vw;
     color: #fff;
-    line-height: 30px;
+    line-height: 2vw;
     text-align: center;
     background: #1E202F;
     position: relative;
-    top: -80px;
+    top: 0vw;
+    font-size: 1vw;
 }
 
 .column {
     display: inline-block;
-    width: 300px;
+    width: 20vw;
     vertical-align: top;
-    margin-right: 20px;
-    margin-top: 20px;
+    margin-right: 1vw;
+    margin-top: 2vw;
   }
   
   h3 {
@@ -623,7 +619,7 @@ footer{
   }
   
   li {
-    margin-bottom: 10px;
+    margin-bottom: 0.8vw;
   }
   
   a {
@@ -632,12 +628,12 @@ footer{
   }  
 
 .links{
-    line-height: 20px;
+    line-height: 1.1vw;
 }
 
 footer .copyright p{
-    margin-top: 30px;
-    font-size: 15px;
+    margin-top: 2.2vw;
+    font-size: 1vw;
     align-items: center;
 }
 
@@ -647,13 +643,3 @@ a:hover{
 }
 
 /*====== Responsive ======*/
-
-@media screen and (max-width: 1920px){
-
-
-}
-
-
-@media screen and (max-width: 1366px){
-    
-}
